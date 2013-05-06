@@ -1,0 +1,23 @@
+{
+  "name": "riak-durability-demo",
+  "version": "0.0.1",
+  "description": "Mostly self-contained Riak cluster durability demo app.",
+  "author": {
+    "name": "Nathan Aschbacher",
+    "email": "nathan@basho.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanaschbacher/riak-durability-demo.git"
+  },
+  "private": true,
+  "scripts": {
+    "start": "/usr/bin/open 'http://localhost:3000'; node app.js"
+  },
+  "dependencies": {
+    "nodiak": "*",
+    "express": "3.2.1",
+    "jade": "*"
+  }
+}

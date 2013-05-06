@@ -1,0 +1,14 @@
+{
+	"settings": {
+			"max_objects": 100000,
+			"max_duration": 10,
+			"max_concurrent": 500
+		},
+	"riak": {
+		"nodes": [
+			{ "name": "dev1", "host": "localhost", "port": 10018 },
+			{ "name": "dev2", "host": "127.0.0.1", "port": 10028 },
+			{ "name": "dev3", "host": "localhost", "port": 10038 },
+			{ "name": "dev4", "host": "127.0.0.1", "port": 10048 }		]
+	}
+}
