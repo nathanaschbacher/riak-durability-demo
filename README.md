@@ -2,13 +2,18 @@
 
 This application is designed to allow for demonstrating the durability of a Riak cluster.
 
+![image](public/images/screenshot.png)
+
+## Pre-requisites
+
+  1. You must already have a [Riak](http://docs.basho.com/riak/latest/downloads/) cluster (devrel setups work fine) running and configured to use this application effectively.
+  2. You must have [node.js](http://nodejs.org/download/) installed w/ npm.
+
 ## Installation
 
-**Pre-requisites:** You must already have a Riak cluster (devrel setups work fine) running and configured to use this application effectively.
-
-	$ git clone git://github.com/nathanaschbacher/riak-durability-demo.git
-	$ cd riak-durability-demo
-	$ npm install
+    $ git clone git://github.com/nathanaschbacher/riak-durability-demo.git
+    $ cd riak-durability-demo
+    $ npm install
 
 ## Usage
 
