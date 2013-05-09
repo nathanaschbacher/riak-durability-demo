@@ -39,7 +39,7 @@ Make sure to modify the `config.json` file to match your environment.
 
 * `settings`
     * `max_objects`: this is the total number of generated objects to load into the `demo` bucket in Riak.
-    * `max_duration`: is the total time in minutes to run the demo.
+    * `max_duration`: is the total time in minutes to run the demo. Set this to `null` to run indefinitely.
     * `max_concurrent`: is the max number of operations allowed to be queued/buffered.  This puts a limit on node.js's buffering of http requests so that they don't keep piling up while waiting for Riak to respond to prior operations.
 
 * `riak`

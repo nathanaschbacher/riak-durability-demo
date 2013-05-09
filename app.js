@@ -14,7 +14,7 @@ var riak = new Pool(config.riak.nodes);
 var metrics = {};
 
 var load_num_obj = config.settings.max_objects;
-var time_threshold = Date.now() + (1000 * 60 * config.settings.max_duration);
+var time_threshold = Date.now() + (1000 * 60 * (config.settings.max_duration === null ? Infinity : config.settings.max_duration));
 var current_object = 0;
 var loaded_obj = 0;
 var concurrent = 0;
